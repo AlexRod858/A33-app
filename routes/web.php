@@ -33,5 +33,5 @@ Route::get('/usuario/{nombre?}', function ($nombre = 'Pepe') {
 // Esto es un filtro para evitar ataques XSS (Cross-Site Scripting). 
 // ¡Vuelve a descomentarla cuando termines con las prácticas!
 Route::post('/publicar', function () {
-    return view('welcome');
+    return 'hecho';
 });
